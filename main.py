@@ -5,6 +5,8 @@ from contextlib import asynccontextmanager
 
 from router import router as tasks_router
 
+# changes
+
 @asynccontextmanager
 async def lifespan(app:FastAPI):
     await delete_tables()
