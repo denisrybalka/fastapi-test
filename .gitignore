@@ -1,2 +1,3 @@
 fastapi_venv
 tasks.db
+__pycache__/
